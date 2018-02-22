@@ -1,0 +1,1 @@
+<?php include('controller/connexion.inc.php');$req=$connexion->query("SELECT * FROM depense ORDER BY id DESC LIMIT 1");while($d=$req->fetch()){$ref=$d['ref'];$date=$d['datee'];$mt=$d['mtchiffre'];$lib=$d['libelleop'];$mtlettre=$d['mtlettre'];$direction=$d['signdirection'];$caisse=$d['caissier'];$benef=$d['benef'];} ?>

@@ -1,0 +1,1 @@
+<?php include('controller/connexion.inc.php');$reef=$_GET['ref'];$req=$connexion->query("DELETE FROM recette where ref_r=$reef");header('location:./search.php'); ?>

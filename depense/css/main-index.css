@@ -1,0 +1,25 @@
+body
+{
+	background: transparent url("../image/back04.jpg") no-repeat top center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 80px;
+	font-family: Maiandra GD;
+}
+
+.cadre{border:1px solid blue;}
+
+.my-flex
+{
+	margin: auto !important;
+	background-color: #FFF;
+	height: 400px;
+	padding-top: 20px;
+	
+
+}
+
+
+
